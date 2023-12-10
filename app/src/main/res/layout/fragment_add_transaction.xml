@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_main"
+    android:background="@drawable/dialog_bg"
     tools:context=".views.fragments.AddTransactionFragment">
 
     <ScrollView
@@ -118,7 +118,6 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:gravity="center"
-                app:backgroundTint="#141D59"
                 android:text="Save Transaction"
                 app:cornerRadius="3dp" />
 
